@@ -1,0 +1,100 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+        "responses": ["Hello", "Hi", "Hi there"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?"],
+        "responses": ["I'm Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "What's your name?"],
+        "responses": ["You can call me Joana.", "I'm Joana!", "Just call me Joana"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Could you help me?", "Give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+        "responses": ["Tell me how I can assist you", "Tell me your problem to assist you", "Yes, sure. How can I support you?"]
+      },
+      {
+        "tag": "createaccount",
+        "patterns": ["I need to create a new account", "How to open a new account", "I want to create an account", "Can you create an account for me?", "How to open a new account?"],
+        "responses": ["You can easily create a new account from our website", "Just go to our website and follow the guidelines to create a new account"]
+      },
+      {
+        "tag": "complaint",
+        "patterns": ["I have a complaint", "I want to raise a complaint", "There is a complaint about a service"],
+        "responses": ["Please provide us your complaint so we can assist you", "Please mention your complaint. We will reach out to you and apologize for any inconvenience caused"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Is it going to rain today?", "What's the forecast for today?"],
+        "responses": ["I can help with that! Please check your local weather forecast on a reliable weather website."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?"],
+        "responses": ["I'm not equipped with real-time data. Please check your device's clock for the current time."]
+      },
+      {
+        "tag": "date",
+        "patterns": ["What's the date today?", "Can you tell me the date?", "What's today's date?"],
+        "responses": ["I'm not equipped with real-time data. Please check your device's calendar for the current date."]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's the news today?", "Tell me the latest news", "Any news updates?"],
+        "responses": ["For the latest news, please check a reliable news source or website."]
+      },
+      {
+        "tag": "music",
+        "patterns": ["Can you play some music?", "Play a song for me", "Do you know any good songs?"],
+        "responses": ["I can't play music directly, but I recommend using a music streaming service like Spotify or Apple Music."]
+      },
+      {
+        "tag": "bookrecommendation",
+        "patterns": ["Can you recommend a book?", "Suggest me a good book to read", "What book should I read next?"],
+        "responses": ["I suggest checking out 'Sapiens' by Yuval Noah Harari if you're interested in history, or 'The Great Gatsby' by F. Scott Fitzgerald for a classic read."]
+      },
+      {
+        "tag": "food",
+        "patterns": ["What's a good recipe for dinner?", "Can you suggest a meal?", "I'm hungry, what should I eat?"],
+        "responses": ["How about trying a pasta dish? It's simple and delicious. Or you could make a salad for something lighter."]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Can you recommend a movie?", "Suggest a good film", "What movie should I watch?"],
+        "responses": ["I recommend watching 'Inception' if you like thrillers, or 'The Lion King' for a great animated film."]
+      },
+      {
+        "tag": "hobby",
+        "patterns": ["I need a new hobby", "Can you suggest a hobby?", "What hobby should I try?"],
+        "responses": ["How about trying painting or drawing? If you like being outdoors, hiking could be a great hobby."]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I need some motivation", "Can you motivate me?", "I feel down, help me cheer up"],
+        "responses": ["Keep pushing forward! Remember, every challenge is an opportunity to grow. You got this!"]
+      }
+    ]
+  }
+  
